@@ -2,11 +2,11 @@
 
 AI-powered REST API that generates personalised recipes based on user preferences, dietary restrictions, budget, demographics, and custom requests.  
 The system integrates FreeGPT and DuckAI to produce structured JSON recipes with ingredients, instructions, calories, cuisine, health benefits, comments, rating, and automatically generated images.  
-The API is built with **FastAPI** for asynchronous request handling and automatic Swagger documentation.
 Check the [Telegram Bot](https://github.com/gopyc-code/ai-recipe-generator-telegram) implementation of this project. 
 
 ## ✨ Features
 - User management with MongoDB (registration, login, storing preferences).
+- Asynchronous request handling with FastAPI.
 - Recipe generation via multiple AI backends:
   - **FreeGPT** for text generation
   - **DuckAI** for conversational recipe creation
