@@ -17,4 +17,3 @@ The system integrates FreeGPT and DuckAI to produce structured JSON recipes with
 ```bash
 git clone https://github.com/gopyc-code/ai-recipe-generator-api.git
 cd ai-recipe-generator-api
-pip install -r requirements.txt
