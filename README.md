@@ -37,3 +37,10 @@ The API is built with **FastAPI** for asynchronous request handling and automati
 - **health_benefits** — nutritional and health information  
 - **image_url** — link to generated image  
 - **rating** — numeric rating (default 5)
+
+## 🚀 Running the API
+
+To start the AI Recipe Generator API locally, use **uvicorn**:
+
+```bash
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
