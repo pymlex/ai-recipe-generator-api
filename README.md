@@ -14,7 +14,7 @@ Check the [Telegram Bot](https://github.com/gopyc-code/ai-recipe-generator-teleg
 - Prompt templating for individualised results (`prompt_template.txt`).
 - Automatic recipe image generation via Pollinations API.
 - JSON output with full structure.
-## 🗄️ Database Structure
+## Database Structure
 
 ### Users Collection (`users`)
 - **name** — full name of the user  
